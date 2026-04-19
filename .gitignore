@@ -1,0 +1,13 @@
+# Ignore Data Files
+data/*.csv
+data/*.xlsx
+
+# Ignore Frozen Models (Too heavy for standard GitHub, reviewers can run the code to generate them)
+models/*.joblib
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
